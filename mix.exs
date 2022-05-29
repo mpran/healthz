@@ -1,7 +1,7 @@
 defmodule Healthz.MixProject do
   use Mix.Project
 
-  @source_url "https://github.com/mpran/health"
+  @source_url "https://github.com/mpran/healthz"
   @version_file Path.join(__DIR__, ".version")
   @external_resource @version_file
   @version (case Regex.run(~r/^v([\d\.]+)/, File.read!(@version_file),
