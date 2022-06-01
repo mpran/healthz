@@ -1,14 +1,5 @@
 defmodule Healthz do
-  @moduledoc """
-  A lightweight plug to respond to some health checker pings
-
-  Usage:
-
-  router.ex
-  ```
-  forward("/path", Healthz)
-  ```
-  """
+  @moduledoc "Plug module that contains implementation"
 
   @behaviour Plug
 

@@ -12,5 +12,11 @@ def deps do
 end
 ```
 
-The docs can be found at <https://hexdocs.pm/healthz>
+The docs can be found at <https://hexdocs.pm/healthz/>
 
+### Usage
+
+```elixir
+# router.ex
+forward("/path", Healthz)
+```
